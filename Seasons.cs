@@ -4,15 +4,29 @@ using System.Text;
 
 namespace Weather
 {
-    class Season
+    class Seasons
     {
 
         //Constructor that takes one argument:
-        public Season(string seasonType)
+
+
+        //lattidu
+        // public string fall, winter, spring, summer;
+        //public string season;
+        //public bool coastal;
+        //public bool river;
+        public string season;
+       
+
+        public Seasons(string aSeason)   //constructor of the class
         {
-            seasonType = seasonType;
+            season = aSeason;
+          
         }
 
+
+
+        
 
 
         public void Rain()
